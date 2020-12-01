@@ -3,6 +3,7 @@ def valid_move?
   if position_taken?(board, index)
   
   if board[index] == 
+    s4.between?(s1, s3)
   return TRUE
   
   else
