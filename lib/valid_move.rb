@@ -3,7 +3,7 @@ def valid_move?
   if position_taken?(board, index)
   
   if board[index] == 
-    between?(s1, s3)
+    index.between?(0 - 9)
   return TRUE
   
   else
