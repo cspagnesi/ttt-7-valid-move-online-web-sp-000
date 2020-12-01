@@ -9,8 +9,6 @@ def valid_move?(board, index)
   # return TRUE
     
   
-  # return TRUE
-  
   # else
   # return false
     
@@ -18,7 +16,20 @@ def valid_move?(board, index)
 end
 
 
-
+def position_taken?(board, index)
+  
+    if board[index] == "X" || board[index] == "O"
+  return TRUE
+    
+  
+  else
+  return false
+    
+  end
+end
+  
+end
+  
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 # ./lib/valid_move.rb
